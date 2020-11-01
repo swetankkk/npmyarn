@@ -3,9 +3,10 @@
   display: flex;
   justify-content: space-around;
   background-color:  #08090a;
-  min-height: 100vh;
-  
+  min-height: 80vh;
 }
+
+
 .cpanel {
   min-width: 40vw;
 }

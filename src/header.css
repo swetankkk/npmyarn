@@ -1,0 +1,11 @@
+.header {
+    flex-direction: row;
+    min-height: 10vh;
+    min-width: 100vw;
+    background-color: #292c2f;
+    color:white;
+  }
+.logo{
+  border:solid;
+  padding: 0px;
+}
