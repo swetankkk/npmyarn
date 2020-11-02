@@ -1,5 +1,12 @@
 const equivalent = {
     npm:'yarn',
-    init: 'init'
+    init: 'init',
+    install: 'install',
+    link: 'link',
+    outdated:'outdated',
+    publish:'publish',
+    run:'run',
+    login:'login',
+    test:'test',
 }
 export default equivalent;
