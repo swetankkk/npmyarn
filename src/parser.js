@@ -16,7 +16,10 @@ const parser=(props)=>{
     let converted='';
     for (const property in object) {
         if (equivalent[object[property]]!=undefined)
-        converted+=' '+equivalent[object[property]];}
+        converted+=' '+equivalent[object[property]];
+        else
+        converted+=' '+object[property];
+    }
     return converted;
 }
 
