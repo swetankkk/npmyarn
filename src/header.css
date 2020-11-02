@@ -1,11 +1,19 @@
 .header {
     flex-direction: row;
-    min-height: 10vh;
+    min-height: 18.1vh;
     min-width: 100vw;
     background-color: #292c2f;
     color:white;
   }
 .logo{
   border:solid;
-  padding: 0px;
+  border-radius:15px;
+  padding: 5px;
+  max-width: 35vw;
+  font-size:10.5vh;
+}
+.subheading{
+  padding-left:10px;
+  padding-top:2px;
+  padding-bottom: 2px;
 }
